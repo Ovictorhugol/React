@@ -6,7 +6,7 @@ body {
 
 @font-face {
     font-family: "Avenir Roman";
-    src: url("avenir-roman.ttf")format("truetype");
+    src: url("/avenir-roman.ttf")format("truetype");
 }
 
 .titulo-principal {
@@ -20,7 +20,8 @@ body {
 
 .fundo {
 
-    background: #CCCCCC;
+    background: url("/imagens/bg.jpg");
+    color: #F9f9f9;
     padding: 30px;
 }
 
