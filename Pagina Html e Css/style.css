@@ -1,0 +1,43 @@
+body {
+    background-image: linear-gradient(#F8C7C8, #DC939C);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 38px 0 38px;
+}
+
+.title_buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3em;
+
+}
+
+.corpo-site {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.corpo-site-texto {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+
+
+.image-body {
+    max-width: 45%;
+}
+
+footer {
+    margin: 0 0 32px 64px;
+}
