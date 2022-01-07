@@ -1,6 +1,7 @@
 body {
     background-image: linear-gradient(#F8C7C8, #DC939C);
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+
 }
 
 .title {
@@ -19,20 +20,86 @@ body {
 
 }
 
+
+li:hover {
+    color: #f9f9f9;
+    cursor: pointer;
+}
+
+
+
+
+.title_buttons-quote {
+    background-color: #8468F5;
+    border-radius: 16px;
+    text-decoration: none;
+    border: none;
+    width: 97px;
+    height: 23px;
+    color: #f9f9f9;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.title_buttons-quote:hover {
+    background-color: #a18df3;
+}
+
 .corpo-site {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: nowrap;
+
 }
 
 .corpo-site-texto {
     display: flex;
     flex-direction: column;
     gap: 2em;
+    margin: 5em;
 }
 
+.corpo-site-texto-caixa-de-texto {
+    align-content: center;
+}
 
+.corpo-site-texto-caixa {
+
+    border-radius: 16px;
+    height: 24px;
+    border: none;
+    max-width: 720px;
+    float: left;
+    outline: none;
+
+    border-radius: 25px 0 0 25px;
+}
+
+.corpo-site-texto-botao {
+    max-width: 120px;
+    height: 26px;
+    background-color: #8468F5;
+    border-radius: 0 25px 25px 0;
+    text-decoration: none;
+    border: none;
+    position: relative;
+    cursor: pointer;
+}
+
+.corpo-site-texto-escrito-titulo {
+    font-size: 56px
+}
+
+strong {
+    color: #8468F5;
+}
+
+.corpo-site-texto-escrito-subtitulo {
+    font-size: 23px;
+    font-weight: 100
+}
 
 .image-body {
     max-width: 45%;
@@ -40,4 +107,5 @@ body {
 
 footer {
     margin: 0 0 32px 64px;
+    cursor: pointer;
 }

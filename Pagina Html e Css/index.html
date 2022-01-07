@@ -8,6 +8,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
     <title>3D shape Landing Page</title>
@@ -18,22 +21,25 @@
         <div class="title">
             <img src="assets/logo.svg" alt="logo">
             <ul class="title_buttons">
-                <li class>Home</li>
+                <li>Home</li>
                 <li>Products</li>
                 <li>Support</li>
                 <li>About</li>
-                <button>Quote</button>
+                <button class="title_buttons-quote">Quote</button>
             </ul>
         </div>
     </header>
     <main>
         <div class="corpo-site">
             <div class="corpo-site-texto">
-                <h2 class="corpo-site-texto-escrito">A massive library of free 3D shapes</h2>
-                <h3 class="corpo-site-texto-escrito">Lorem ipsum is placeholder text commonly used in the graphic,
+                <h2 class="corpo-site-texto-escrito-titulo">A massive library of free 3D <strong>shapes</strong></h2>
+                <h3 class="corpo-site-texto-escrito-subtitulo">Lorem ipsum is placeholder text commonly used in the
+                    graphic,
                     print, and publishing industries</h3>
-                <input placeholder="your email address" type="email"
-                    class="corpo-site-texto-botao"></input><button>Download</button>
+                <form>
+                    <input placeholder="Coloque seu email" type="email" class="corpo-site-texto-caixa"></input>
+                    <input type="submit" value="Download" class="corpo-site-texto-botao"></input>
+                </form>
             </div>
             <img src="assets/image-body.svg" class="image-body">
         </div>
